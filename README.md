@@ -1,1 +1,2 @@
-# Discord-bot-website-template
+# Lazy Bot Website
+Lazy Studios Copiright
