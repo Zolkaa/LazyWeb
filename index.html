@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/kit.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Lazy</title>
+        <link rel="icon" type="image/vnd.microsoft.icon" href="assets/favico.ico">
+        <style>
+             html {
+  --scrollbarBG: rgb(167, 151, 151);
+  --thumbBG: #0E95FF;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  
+  
+}
+body {
+  background: black
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+* {
+  box-sizing: border-box;
+}
+            a {
+                color: black
+            }
+            .homeButton {
+                float: left;
+                padding: 10px;
+                font-size: 25px;
+                background-color: white;
+                color: black;
+                border-radius: 100px;
+                padding-right: 50px;
+                margin-left: 20px;
+                margin-top: -80px
+            }
+            .body1 {
+                background-image: url('assets/bg.png');
+                padding-top: 100px;
+                padding-bottom: 347px
+            }
+            .addtodc {
+                float: right;
+                padding: 10px;
+                background-color: white;
+                border-radius: 30px;
+                margin-top: -12vh;
+                position: fixed;
+                margin-left: 1200px;
+            }
+            .seefeatures {
+                float: right;
+                padding: 10px;
+                border-radius: 30px;
+                margin-top: -12vh;
+                position: fixed;
+                margin-left: 1060px
+            }
+    
+            button {
+                float: right;
+                padding: 10px;
+                background-color: white;
+                border-radius: 30px;
+                margin-top: -9px;
+                position: fixed;
+                margin-left: 0px;
+                text-decoration: none;
+                border: none;
+                color: black
+            }
+            .author {
+                color: white;
+                float: center;
+                font-size: 150px;
+                margin-left: 250px;
+                margin-top: 100px;
+                margin-bottom: -80px;
+            }
+            @font-face {
+                font-family: "Crackvetica";
+                src: url('ThunderTitan.otf')
+            }
+            @font-face {
+                font-family: "Rular";
+                src: url('Rular.ttf')
+            }
+            .bannerImage {
+                float: right;
+                margin-top: -250px;
+                margin-right: 100px;
+                margin-bottom: -200px
+            }
+            .f1 {
+                float: left;
+                margin-left: 170px;
+                font-size: 40px;
+                color:white;
+                margin-top: 500px;
+                padding-top: 0px
+            }
+            .automodImg {
+                float: right;
+                margin-left: 100px;
+                margin-bottom: -100px
+            }
+            .body2 {
+                background-color: #04122d;
+                padding: 50%;
+                padding-bottom: 1000px;
+                padding-top: 1000px
+            }
+            .f2 {
+                float: right;
+                margin-right: -450px;
+                font-size: 40px;
+                color: white;
+                margin-top: -200px;
+                padding-left: 100px;
+            }
+            .welcomeImage {
+                float: left;
+                margin-right: 100px;
+                margin-top: 200px
+            }
+            .f3 {
+                float: left;
+                font-size: 40px;
+                color: white;
+                margin-left: -450px;
+                margin-top: 500px
+            }
+            .funImage {
+                float: right;
+                margin-right: -410px;
+                margin-top: 350px
+            }
+            .servercount {
+                font-size: 60px;
+                color: white;
+                margin-top: -830px;
+                margin-left: -233px
+            }
+        </style>
+    </head>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 600; // For Safari
+            document.documentElement.scrollTop = 600; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <body>
+        <div class="body1">
+        <a href="index.html">
+            <div class="homeButton">
+                <font face="Segoe UI" style="margin-left: 40px"><b>Home</b></font>
+            </div>
+        </a>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=701472000304218223&permissions=2147483639&scope=bot">
+        <div class="addtodc">
+            <font face="Segoe UI" style="font-size: 18px"><b>Add to discord</b></font>
+        </div>
+        </a>
+        <div class="seefeatures">
+            <button onclick="topFunction()"><font face="Segoe UI" style="font-size: 18px"><b>See features</b></font></button>
+        </div>
+        <div class="author">
+            <font face="Crackvetica"><b>Lazy</b></font>   
+        </div>
+        <div class="bannerImage">
+            <img src="assets/banner.png">
+        </div>
+        </div>
+        <div class="body2">
+            <img src="assets/bg2.png" style="margin-top: -1500px; margin-left: -690px">
+            <img src="assets/serversback.png" style="margin-top: -1400px; margin-left: 100px; border-radius: 50px">
+            <img src="assets/serversback.png" style="margin-top: -1440px; margin-left: -300px; border-radius: 50px">
+            <div class="servercount">
+                <b>18</b>
+                <p style="font-size: 40px;color: darkgrey; margin-left: -25px; margin-top: 20px"><b>server</b></p>
+            </div>
+            <div class="servercount">
+                <p style="margin-left: 378px; margin-top: 650px"><b>411</b></p>
+                <p style="font-size: 40px;color: darkgrey; margin-left: 360px; margin-top: -100px"><b>member</b></p>
+            </div>
+        </div>
+    </body>
+</html>
