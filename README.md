@@ -1,0 +1,2 @@
+# LazyWeb
+Lazy Studios Copiright
